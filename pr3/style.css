@@ -1,0 +1,57 @@
+body 
+{ 
+color: #7fc7ff;
+background: #231a24;
+font-family:calibri
+}
+
+a:link {
+color:#71bc78;
+}
+
+a:visited {
+color:#adadad;
+}
+
+nav a:hover {
+outline: solid;
+color: adadad;
+padding: 0px;
+border-radius: 3px 3px 1px 1px;
+}
+
+a:active { color: red; }
+
+aside {
+float: right;
+margin:50px;
+width:20%; }
+
+header, footer { background: #151216}
+
+header div.container {
+    position: sticky;
+    text-align: center;
+    color: white;
+    width:100%;
+    height:225px;
+    top:0px;
+  }
+
+header div.centered {
+    position: absolute;
+    text-shadow: black 2px 2px 0, black -2px -2px 0, 
+    black -2px 2px 0, black 2px -2px 0;
+    font-size:90px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+ #joke {
+  width:100%;
+  top:0;
+  background-color:#151216;
+  position:"position:sticky";
+ }
+
